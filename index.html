@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location's Weather </title>
+    <link rel="stylesheet" href="public/styles/info.css">
+</head>
+<body>
+    <form action="/Home" method="post">
+        <input type="Submit" value="Home">
+    </form>
+        
+
+    <h2>   <img src="public/styles/logo.png " style="width:50px; height:40px ;vertical-align:baseline;">  Weather Report...</h2>
+   
+    <div class="info1">
+    <div class="temperature info">
+       <h3><img src="public/styles/temp.png" style="width:40px">Temperature</h3>
+        <p>minimum:<%=temperature.minimum</p>
+         <p>maximum:<%=temperature.maximum</p>  
+         <p>daytime:<%=temperature.daytime</p> 
+         <p>nighttime:<%=temperature.nighttime</p> 
+         <p>evening:<%=temperature.evening</p> 
+         <p>morning:<%=temperature.morning</p>
+    </div>
+    <div class="humidity info">
+        <h3> <img src="public/styles/humidity.jpg" style="width: 40px;">Humidity</h3>
+        <p>Afternoon:<%=humidity.afternoon</p>
+    </div>
+    <div class= "precipitation info">
+        <h3><img src="public/styles/precipitation.png" style="width:40px ;vertical-align: middle;">Precipitation</h3>
+        <p>Afternoon:<%=precipitation.total</p>
+    </div>
+    <div class="pressure info">
+        <h3><img src="public/styles/pressure.png" style="width:40px ;height:48px ">Pressure</h3>
+        <p>Pressure:<%=pressure.aftern></p>
+    </div>
+    <div class="wind info">
+    <h3><img src="public/styles/wind.jpeg" style="width: 50px;">Wind </h3>
+        <p>Max-Speed:<%=wind.max_</p>
+        <p>Degree:<%=wind.degree</p>
+        <p>Direction:<%=wind.direction</p>
+    </div>
+    <div class="cloudcover info">
+        <h3><img src="public/styles/cloudcover.png" style="width: 40px;">Cloud-Cover</h3>
+        <p>Afternoon:<%=cloudcover.afte</p>
+    </div>
+</div>
+</body>
+<footer>@Made by Naveen Kumawat</footer>
+</html>
