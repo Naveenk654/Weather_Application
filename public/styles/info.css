@@ -1,0 +1,44 @@
+body{
+    background-color: #FBF5DD;
+    color: #16404D;
+    height: 100%;
+    margin: 0;
+    overflow-y: scroll;
+}
+.info{
+    width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: all 0.3s ease; 
+}
+.info1
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.info:hover{
+    background-color: #A6CDC6; /* Change background color */
+    transform: scale(1.1); /* Slightly scale the div */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+form {
+    position: relative; /* Make sure the parent container is positioned */
+}
+
+
+form input{
+    position: absolute;
+    top: 5px;  /* Distance from the top of the page */
+    right: 10px; /* Distance from the right of the page */
+    padding: 10px 20px;
+    background-color: #16404D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
