@@ -54,7 +54,7 @@ npm install
 Start the server
 npm start
 
-🔮 Future Plans
+##🔮 Future Plans
 We aim to enhance the Weather App with the following features:
 
 🌍 Location Auto-Detect – Use browser geolocation to automatically detect user's city
@@ -73,7 +73,7 @@ We aim to enhance the Weather App with the following features:
 
 📱 Responsive Design – Make mobile-first layout using Tailwind or Bootstrap
 
-👨‍💻 Author
+##👨‍💻 Author
 Made with ❤️ by Naveen Kumawat
 
 
