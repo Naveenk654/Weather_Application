@@ -48,7 +48,8 @@ A simple weather report application built with **Node.js**, **Express**, and **E
 │ └── info.css # App styling
 ├── views/
 │ ├── index.ejs # Home page (search form)
-│ └── info.ejs # Weather display page ```
+│ └── info.ejs # Weather display page
+```
 ---
 Install dependencies
 npm install
