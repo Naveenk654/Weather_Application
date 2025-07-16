@@ -40,7 +40,7 @@ A simple weather report application built with **Node.js**, **Express**, and **E
 ---
 
 ## 📂 Folder Structure
-eather-app/
+weather-app/
 ├── index.js # App entry point
 ├── package.json # Project config and dependencies
 ├── public/
@@ -49,31 +49,29 @@ eather-app/
 ├── views/
 │ ├── index.ejs # Home page (search form)
 │ └── info.ejs # Weather display page
+---
 Install dependencies
 npm install
 Start the server
 npm start
+---
+## 🔮 Future Plans
 
-##🔮 Future Plans
 We aim to enhance the Weather App with the following features:
 
-🌍 Location Auto-Detect – Use browser geolocation to automatically detect user's city
+- 🌍 Location Auto-Detect – Use browser geolocation to automatically detect user's city  
+- 🕒 Hourly Forecast View – Display upcoming hourly weather data with charts  
+- 📅 7-Day Forecast – Add a weekly view for extended forecasting  
+- 🌙 Dark Mode – Add toggle to switch between light/dark themes  
+- 🧭 Weather Icons – Dynamic icons based on weather conditions (sun, rain, clouds, etc.)  
+- 🗂️ Search History – Store and show recent locations  
+- 🌐 Multi-language Support – Add translations for global users  
+- 📱 Responsive Design – Make mobile-first layout using Tailwind or Bootstrap  
 
-🕒 Hourly Forecast View – Display upcoming hourly weather data with charts
+---
 
-📅 7-Day Forecast – Add a weekly view for extended forecasting
+## 👨‍💻 Author
 
-🌙 Dark Mode – Add toggle to switch between light/dark themes
-
-🧭 Weather Icons – Dynamic icons based on weather conditions (sun, rain, clouds, etc.)
-
-🗂️ Search History – Store and show recent locations
-
-🌐 Multi-language Support – Add translations for global users
-
-📱 Responsive Design – Make mobile-first layout using Tailwind or Bootstrap
-
-##👨‍💻 Author
 Made with ❤️ by Naveen Kumawat
 
 
