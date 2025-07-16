@@ -40,7 +40,7 @@ A simple weather report application built with **Node.js**, **Express**, and **E
 ---
 
 ## 📂 Folder Structure
-weather-app/
+```weather-app/
 ├── index.js # App entry point
 ├── package.json # Project config and dependencies
 ├── public/
@@ -48,7 +48,7 @@ weather-app/
 │ └── info.css # App styling
 ├── views/
 │ ├── index.ejs # Home page (search form)
-│ └── info.ejs # Weather display page
+│ └── info.ejs # Weather display page ```
 ---
 Install dependencies
 npm install
