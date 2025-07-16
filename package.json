@@ -1,20 +1,19 @@
 {
   "name": "weather",
   "version": "1.0.0",
+  "description": "Weather app using Express and EJS",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
     "ejs": "^3.1.10",
     "express": "^4.21.2"
-  }
+  },
+  "author": "Naveen",
+  "license": "ISC"
 }
